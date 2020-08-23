@@ -77,3 +77,78 @@ body{
 	box-shadow: 0 4px 4px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
 	background: #e9e5d5;
 }
+.switched #circle {
+	margin-left: 55%;
+	background: #e9e5d5;
+}
+.section-center{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	display: block;
+	overflow: hidden;
+	border: 10px solid rgba(0,0,0,.2);
+	border-radius: 50%;
+	z-index: 5;
+	background-color: #1d4456;
+	box-shadow: 0 0 50px 5px rgba(255,148,0,.1);
+	transform: translate(-50%, -50%);
+}
+.moon{
+	position: absolute;
+	top: 50px;
+	left: 115px;
+	width: 80px;
+	display: block;
+	height: 80px;
+	background-color: #b2b7bc;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 
+		inset -20px 2px 0 0px #c0c3c9,
+        0 0 10px 5px rgba(228,228,222,.4);
+	z-index: 1;
+	animation: brilla-moon 4s alternate infinite;
+}
+.moon div:nth-child(1) {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 12%;
+	height: 12%;
+	border-radius: 50%;
+	border: 1px solid #adaca2;
+	border-radius: 50%;
+	box-shadow: inset 2px -1px 0 0px #85868b;
+	opacity: 0.4;
+}
+.moon div:nth-child(2) {
+	position: absolute;
+	top: 20%;
+	left: 38%;
+	width: 16%;
+	height: 16%;
+	border-radius: 50%;
+	border: 1px solid #adaca2;
+	border-radius: 50%;
+	box-shadow: inset 2px -1px 0 0px #85868b;
+	opacity: 0.4;
+}
+.moon div:nth-child(3) {
+	position: absolute;
+	top: 60%;
+	left: 45%;
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
+	border: 1px solid #adaca2;
+	border-radius: 50%;
+	box-shadow: inset 2px -1px 0 0px #85868b;
+	opacity: 0.4;
+}
+.moon{
+	-webkit-transition: all 2000ms linear;
+	transition: all 2000ms linear; 
+}
