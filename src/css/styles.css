@@ -396,3 +396,29 @@ body{
 	opacity: 0.8;
 	transform: rotate(-50deg);
 }
+.fire span:nth-child(2) { 
+	left: -22px; 
+	transform: scale(0.3, 0.55) rotate(15deg);
+	z-index: 8;
+	animation: brilla-fire 1.5s alternate infinite;
+}
+.fire span:nth-child(3) { 
+	left: 4px; 
+	transform: scale(0.3, 0.55) rotate(80deg);
+	z-index: 8;
+	animation: brilla-fire 2s alternate infinite;
+}
+@keyframes brilla-fire{
+	0%, 100%{
+	box-shadow: 
+		0 0 10px 5px rgba(244,110,28,0.8),
+		0 0 20px 10px rgba(244,110,28,0.6),
+		0 0 30px 15px rgba(244,110,28,0.3);
+	}
+	50%{
+	box-shadow: 
+		0 0 14px 7px rgba(244,110,28,0.8),
+		0 0 28px 14px rgba(244,110,28,0.6),
+		0 0 42px 21px rgba(244,110,28,0.3);
+	}
+}
