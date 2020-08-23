@@ -490,3 +490,22 @@ body{
 .smoke .s-9 { 
 	animation: smokeRight 7s 6.3s infinite 
 }
+body.fire-off .fire-on{
+	opacity: 0;
+}
+.section-center{
+	-webkit-transition: all 500ms linear;
+	transition: all 500ms linear; 
+}
+body.fire-off .section-center{
+	box-shadow: 0 0 50px 5px rgba(200,200,200,.2);
+}
+body.fire-off .smoke{
+	opacity: 1;
+	transition-delay: 0.8s;
+}
+body.fire-off .fire span { 
+	bottom: -35px;
+	left: -9px; 
+	transform: scale(0.15, 0.15) rotate(45deg);
+}
