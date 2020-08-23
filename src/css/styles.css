@@ -268,7 +268,7 @@ body{
 		opacity: 0.4;
 	}
 }
-/* .wood {
+ .wood {
 	position: absolute;
 	z-index: 21;
 	left: 50%; 
@@ -279,7 +279,7 @@ body{
 	background-image: url('https://ivang-design.com//svg-load/air/wood.png');
 	background-size: 100px 36px;
 }
-.wood-circle {
+ .wood-circle {
 	position: absolute;
 	z-index: 20;
 	left: 50%; 
@@ -299,4 +299,4 @@ body{
 	height: 700px;
 	border-radius: 100%;
 	background-color: #112630;
-} */
+} 
